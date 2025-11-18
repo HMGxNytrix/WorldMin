@@ -1,0 +1,182 @@
+/* OGÓLNY STYL */
+body {
+    margin: 0;
+    background: #1a1a1a url("https://wallpapercave.com/wp/wp4441067.jpg") fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+/* NAGŁÓWEK */
+.minecraft-header {
+    background: #0d0d0d;
+    border-bottom: 5px solid #3fa63f;
+    padding: 20px;
+    text-align: center;
+}
+
+.minecraft-header h1 {
+    margin: 0;
+    color: #3fa63f;
+    font-size: 40px;
+    text-shadow: 3px 3px 0 black;
+}
+
+.minecraft-header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d2ffd2;
+    font-size: 20px;
+}
+
+.minecraft-header nav a:hover {
+    color: #3fa63f;
+}
+
+/* HERO */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/wp1813291.jpg");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 3px 3px 8px black;
+}
+
+/* SEKCJE */
+.box {
+    background: rgba(0, 0, 0, 0.65);
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 900px;
+    border: 4px solid #3fa63f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #3fa63f;
+}
+
+.box h2 {
+    margin-top: 0;
+    font-size: 32px;
+    color: #76ff76;
+    text-shadow: 2px 2px 0 black;
+}
+
+/* SOCIAL */
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* PRZYCISKI W STYLU MINECRAFT */
+.btn {
+    background: #3fa63f;
+    padding: 12px 25px;
+    border: 3px solid #0a3d0a;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 #0a3d0a;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #56cc56;
+}
+
+/* FORMULARZ KONTAKTOWY */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #3fa63f;
+    border-radius: 5px;
+    background: #111;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d0d0d;
+    border-top: 5px solid #3fa63f;
+    color: #8aff8a;
+}
+.download-section {
+    background: rgba(0, 0, 0, 0.6);
+    border-color: #4cff4c;
+}
+
+.download-wrapper {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.game-thumb {
+    width: 280px;
+    height: auto;
+    border: 4px solid #3fa63f;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #3fa63f;
+}
+
+.game-info h2 {
+    margin: 0;
+}
+
+.download-btn {
+    margin-top: 12px;
+    background: #4cff4c;
+    border-color: #0a3d0a;
+}
+/* SEKCJA PROFILU NA GÓRZE STRONY */
+.profile-top {
+    width: 100%;
+    display: flex;
+    justify-content: center;   /* wyśrodkowanie poziome */
+    margin-top: 25px;          /* odstęp od góry strony */
+}
+
+/* RAMKA PROFILU */
+.player-card {
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 12px 18px;
+    border-radius: 12px;
+    border: 2px solid #3fa63f;
+    width: fit-content;
+    gap: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    transition: 0.2s;
+}
+
+.player-card:hover {
+    transform: scale(1.03);
+    border-color: #5aff5a;
+}
+
+/* AVATAR */
+.player-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 3px solid #3fa63f;
+}
+
+/* NICKI */
+.player-info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+}
+
+.player-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #8f8f8f;
+}
